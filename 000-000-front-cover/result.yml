@@ -1,0 +1,11 @@
+---
+crosscompute: 0.8.4
+kind: result
+name: '{utility_name} - Front Cover'
+tool:
+  path: tool.yml
+
+print:
+  style:
+    path: report.css
+  format: pdf
