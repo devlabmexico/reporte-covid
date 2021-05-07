@@ -1,0 +1,19 @@
+---
+crosscompute: 0.8.4
+kind: report
+name: '{utility_name} - 2020 Annual Benchmarking Report'
+input:
+  variables:
+output:
+  templates:
+    - path: sections/000-000-front-cover/result.yml
+    - path: sections/001-000-general-overview/result.yml
+    - path: sections/002-001-status-by-state/result.yml
+print:
+  style:
+    path: report.css
+  header:
+    path: header.md
+  footer:
+    path: footer.md
+  format: pdf
