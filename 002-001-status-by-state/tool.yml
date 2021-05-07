@@ -1,0 +1,46 @@
+---
+crosscompute: 0.8.4
+kind: tool
+name: Compute Customer Size Classes 
+version:
+  name: 0.0.1
+input:
+  variables:
+    - id: utility_name
+      view: text
+      path: settings.json
+output:
+  variables:
+    - id: table1
+      view: table
+      path: table1.csv
+    - id: figure1
+      view: image
+      path: figure1.png
+    - id: figure2
+      view: image
+      path: figure2.png
+    - id: figure3
+      view: image
+      path: figure3.png
+    - id: figure4
+      view: image
+      path: figure4.png
+    - id: figure5
+      view: image
+      path: figure5.png
+  templates:
+    - id: standard
+      path: result.md
+tests:
+  - folder: tests/standard
+script:
+  folder: .
+  command: python -c "$(jupyter nbconvert run.ipynb --to script --stdout)"
+repository:
+  uri: git@github.com:AmericanPublicPowerAssociation/computationProjects
+  folder: sections/001-000-general-overview
+environment: 
+  image: docker.io/library/python:slim-buster
+  processor: cpu
+  memory: tiny
