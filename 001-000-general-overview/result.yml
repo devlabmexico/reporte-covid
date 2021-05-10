@@ -6,7 +6,9 @@ tool:
   path: tool.yml
 input:
   variables:
-
+    - id: utility_name
+      data:
+        path: data/title.txt
 print:
   style:
     path: report.css

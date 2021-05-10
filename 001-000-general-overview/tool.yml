@@ -6,9 +6,6 @@ version:
   name: 0.0.1
 input:
   variables:
-    - id: statistics
-      view: table
-      path: statistics.csv
     - id: utility_name
       view: text
       path: settings.json

@@ -13,7 +13,10 @@ output:
   variables:
     - id: title
       view: markdown
-      path: title.md    
+      path: title.md
+    - id: background
+      view: image
+      path: background.png
 tests:
   - folder: tests/standard
 script:

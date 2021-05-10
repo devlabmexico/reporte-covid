@@ -1,14 +1,18 @@
 ---
 crosscompute: 0.8.4
 kind: report
-name: '{utility_name} - 2020 Annual Benchmarking Report'
+name: 'Reporte del impacto del COVID-19 en Mexico'
 input:
   variables:
+    - id: statistics
+      view: text
+      data:
+        path: data/statistics.txt
 output:
   templates:
-    - path: sections/000-000-front-cover/result.yml
-    - path: sections/001-000-general-overview/result.yml
-    - path: sections/002-001-status-by-state/result.yml
+    - path: 000-000-front-cover/result.yml
+    - path: 001-000-general-overview/result.yml
+    - path: 002-001-status-by-state/result.yml  
 print:
   style:
     path: report.css

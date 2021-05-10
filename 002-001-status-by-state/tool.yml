@@ -1,7 +1,7 @@
 ---
 crosscompute: 0.8.4
 kind: tool
-name: Compute Customer Size Classes 
+name: Data extration by state and OCDE metrics 
 version:
   name: 0.0.1
 input:

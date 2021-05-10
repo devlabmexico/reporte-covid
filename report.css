@@ -1,0 +1,102 @@
+@page {
+  margin-left: 0.8in;
+  margin-right: 0.8in;
+  margin-top: 0.8in;
+  margin-bottom: 0.8in;
+}
+
+body {
+  font-family: Arial, Verdana, sans-serif;
+  line-height: 130%;
+  font-size: 11pt;
+}
+
+table, th, td {
+  border: 1px solid #808080 !important;
+  line-height: 130% !important;
+}
+
+table {
+  margin: 0 0 1.5em 0;
+}
+
+thead {
+  background-color: #F2F2F2;
+}
+
+th {
+  text-align: center !important;
+}
+
+td {
+  padding: 0.1em 0.2em 0.1em 0.2em !important;
+}
+
+#front-cover-title {
+  position: absolute;
+  top: 6in;  /* Depends on page and image dimensions */
+  font-size: 0.48in;
+  line-height: 130%;
+  transform: translate(0, -50%);
+}
+
+.customer-specific {
+  color: red;
+}
+
+.table1 td:not(:first-child) {
+  text-align: center;
+}
+
+
+/* Footnotes */
+
+@media print {
+  footer {
+    page-break-after: always;
+  }
+}
+
+article {
+  counter-reset: footnotes;
+}
+
+footer {
+  margin-top: 5em;
+  border-top: 1px solid silver;
+  font-size: 0.8em;
+}
+
+footer ol {
+  padding-left: 2em;
+}
+
+footer :target {
+  background: yellow;
+}
+
+[aria-describedby='footnote-label'] {
+  counter-increment: footnotes;
+  text-decoration: none;
+  color: inherit;
+  cursor: default;
+  outline: none;
+}
+
+[aria-describedby='footnote-label']::after {
+  content: '[' counter(footnotes) ']';
+  vertical-align: super;
+  font-size: 0.5em;
+  margin-left: 0.3em;
+  color: blue;
+  cursor: pointer;
+}
+
+[aria-describedby='footnote-label']:focus::after {
+  outline: thin dotted;
+  outline-offset: 0.3em;
+}
+
+[aria-label='back to content'] {
+  font-size: 0.8em;
+}

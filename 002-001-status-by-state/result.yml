@@ -1,12 +1,14 @@
 ---
 crosscompute: 0.8.4
 kind: result
-name: '{utility_name} - General Overview'
+name: '{utility_name} - Analisis por estado e indicadores de la OCDE'
 tool:
   path: tool.yml
 input:
   variables:
-
+    - id: utility_name
+      data:
+        path: data/title.txt
 print:
   style:
     path: report.css
