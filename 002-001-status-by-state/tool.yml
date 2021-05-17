@@ -29,6 +29,12 @@ output:
     - id: figure5
       view: image
       path: figure5.png
+    - id: figure6
+      view: image
+      path: figure6.png
+    - id: figure7
+      view: image
+      path: figure7.png
   templates:
     - id: standard
       path: result.md
