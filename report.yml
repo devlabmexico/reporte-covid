@@ -11,8 +11,8 @@ input:
 output:
   templates:
     - path: 000-000-front-cover/result.yml
-    # - path: 001-000-general-overview/result.yml
-    # - path: 002-001-status-by-state/result.yml  
+    - path: 001-000-general-overview/result.yml
+    - path: 002-001-status-by-state/result.yml  
 print:
   style:
     path: report.css
