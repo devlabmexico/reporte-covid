@@ -41,3 +41,7 @@ La mortalidad de mujeres embarazadas se encuentra por debajo del 1% de 50 000 ca
 
 
 { figure9 } Figure 5. Afectación por rangos de edad
+
+# Referencias
+
+1. Github: [https://github.com/devlabmexico/reporte-covid](https://github.com/devlabmexico/reporte-covid)
