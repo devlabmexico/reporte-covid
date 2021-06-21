@@ -11,9 +11,9 @@ input:
       path: settings.json
 output:
   variables:
-    - id: table1
+    - id: table2
       view: table
-      path: table1.csv
+      path: table2.csv
     - id: figure1
       view: image
       path: figure1.png
@@ -35,6 +35,12 @@ output:
     - id: figure7
       view: image
       path: figure7.png
+    - id: figure8
+      view: image
+      path: figure8.png
+    - id: figure9
+      view: image
+      path: figure9.png
   templates:
     - id: standard
       path: result.md

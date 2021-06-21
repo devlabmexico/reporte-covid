@@ -8,8 +8,7 @@ input:
   variables:
     - id: utility_name
       data:
-        batch:
-          path: data/statistics.txt
+         path: data/statistics.txt
 print:
   style:
     path: report.css

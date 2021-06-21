@@ -12,6 +12,10 @@ body {
   font-size: 11pt;
 }
 
+h1, h2, h3, h4 {
+    font-family: 'Oswald', sans-serif;
+}
+
 table, th, td {
   border: 1px solid #808080 !important;
   line-height: 130% !important;
@@ -33,12 +37,35 @@ td {
   padding: 0.1em 0.2em 0.1em 0.2em !important;
 }
 
+.table2 td:nth-child(n+3)  {
+  text-align: right !important;
+}
+
 #front-cover-title {
+  font-family: 'Oswald', sans-serif;
+  position: absolute;
+  top: 5.8in;  /* Depends on page and image dimensions */
+  font-size: 0.48in;
+  transform: translate(0, -50%);
+}
+
+#front-cover-subtitle {
+  font-family: 'Oswald', sans-serif;
   position: absolute;
   top: 6in;  /* Depends on page and image dimensions */
-  font-size: 0.48in;
-  line-height: 130%;
+  font-size: 0.28in;
+  line-height: 120%;
   transform: translate(0, -50%);
+}
+
+#front-cover-author {
+  font-family: sans-serif;
+  position: absolute;
+  top: 6.4in;  /* Depends on page and image dimensions */
+  font-size: 0.18in;
+  line-height: 120%;
+  transform: translate(0, -50%);   
+  overflow: hidden;  
 }
 
 .customer-specific {
@@ -46,7 +73,15 @@ td {
 }
 
 .table1 td:not(:first-child) {
-  text-align: center;
+  text-align: right;
+}
+
+img {
+  max-height: 80vh;
+}
+
+.figure3, .figure4  {
+  max-height: 90vh
 }
 
 
