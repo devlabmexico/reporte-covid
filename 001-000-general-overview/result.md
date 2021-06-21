@@ -1,6 +1,6 @@
 # 1. Impacto por padecimiento
 
-El presente informa se ha realizdo con los datos provistos por la Secretaria de Salud en el [portal de datos](https://datos.gob.mx/busca/dataset/informacion-referente-a-casos-covid-19-en-mexico) del gobierno federal de Mexico. Se incluyen los casos confirmados como positivos con una prueba diagnostica y aquellos que fallecieron con un diagnostico de Covid-19. 
+El presente informa se ha realizado con los datos provistos por la Secretaría de Salud en el [portal de datos](https://datos.gob.mx/busca/dataset/informacion-referente-a-casos-covid-19-en-mexico) del gobierno federal de México. Se incluyen los casos confirmados como positivos con una prueba diagnóstica y aquellos que fallecieron con un diagnóstico de Covid-19. 
 
 Se presentan las principales enfermades preexistentes de pacientes vivos y difuntos detectados con Covid-19 a la fecha 14 de mayo del 2021.
 

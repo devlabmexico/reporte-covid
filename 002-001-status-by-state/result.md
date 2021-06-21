@@ -1,5 +1,5 @@
 
-# 2. Impacto de COVID-19 por estado de la republica
+# 2. Impacto de COVID-19 por estado de la república
 
 ## Tabla 1. Casos y fallecimientos por estado 
 
@@ -15,4 +15,4 @@
 { figure6 } Figure 3. Mapa de casos positivos normalizados
 { figure7 } Figure 4. Mapa de defunciones normalizados
 
-3. Analisis basado en indicadores de la OCDE
+3. Análisis basado en indicadores de la OCDE
