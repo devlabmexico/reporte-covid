@@ -1,8 +1,7 @@
 # 2. Impacto de COVID-19 por estado de la república mexicana
 
 La información que se presenta en esta sección está normalizada con respecto al número de habitantes
-del estado de la república correspondiente. El número de habitantes es tomado del ultimo [senso de
-población y vivienda](https://www.inegi.org.mx/programas/ccpv/2020/#Resultados_generales) realizado por el INEGI durante
+del estado de la república correspondiente. El número de habitantes es tomado del ultimo senso de población y vivienda[^1] realizado por el INEGI durante
 el 2020.
 
 ## Tabla 1. Casos y fallecimientos por estado 
@@ -42,6 +41,20 @@ La mortalidad de mujeres embarazadas se encuentra por debajo del 1% de 50 000 ca
 
 { figure9 } Figure 5. Afectación por rangos de edad
 
+<div style='page-break-after: always;'></div>
+
+
+# Agredecimientos
+
+Agradecemos a Cross Compute por patrocinar el desarrollo y la infraestructura que hicieron posibles este reporte[2].
+Agradecemos especialmente a Roy Hyunjin Han por su incondicional apoyo durante el desarrollo de este reporte.
+Por último agradecer a Noé Domínguez y Mónica Benitez por su apoyo en la revisión final y lanzamiento de esta primera versión del 
+reporte COVID-19.
+
+<div style='page-break-after: always;'></div>
+
 # Referencias
 
-1. Github: [https://github.com/devlabmexico/reporte-covid](https://github.com/devlabmexico/reporte-covid)
+1. Senso de población y vivienda [https://www.inegi.org.mx/programas/ccpv/2020/#Resultados_generales](https://www.inegi.org.mx/programas/ccpv/2020/#Resultados_generales)
+
+2. Código fuente de reporte: [https://github.com/devlabmexico/reporte-covid](https://github.com/devlabmexico/reporte-covid)
